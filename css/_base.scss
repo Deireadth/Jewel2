@@ -1,7 +1,9 @@
-@font-face {
+/*@font-face {
     font-family: AwesomeFont;
     src: url(fonts/fontawesome-webfont.ttf)
-}
+}*/
+
+@fa-font-path:  "fonts/";
 .facebookSquare {
     display: inline-block;
     font-family: AwesomeFont;
