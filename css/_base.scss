@@ -1,0 +1,13 @@
+@font-face {
+    font-family: AwesomeFont;
+    src: url(fonts/fontawesome-webfont.ttf)
+}
+.facebookSquare {
+    display: inline-block;
+    font-family: AwesomeFont;
+    
+    
+    &:before {
+    content: '\e806';
+    }
+}
