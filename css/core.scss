@@ -2,3 +2,28 @@
 @import 'desktop';
 @import 'mobile';
 @import 'tablet';
+
+* {
+    border-color: red;
+    border-style:solid;
+}
+
+button {
+    color: white;
+    border-radius: 3px;
+    padding: 10px 15px;
+    font-weight: bold;
+    border: solid;
+    border-color: white;
+    background: none;
+
+}
+
+.learnMore{
+    background-color: rgb(233, 33, 33);
+    border: none;
+
+}
+p {
+    color: rgb(139,139,139);
+}
