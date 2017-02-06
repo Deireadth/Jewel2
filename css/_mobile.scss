@@ -23,12 +23,32 @@ h4 {
     font-weight: 900;
 }
 h1 {
+    font-size: x-large;
     font-weight: 700;
+}
+.tlo {  
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.tlo4{
+    background-color: lightgray;
+    padding: 0 0 30px 0;
+}
+
+.right, .left {
+    background-image: inherit;
 }
 
 .tlo3 {
+    border-top-color: grey;
+    border-top-style: solid;
+
     text-align: center;
 }
+
+
 .spriteDiv {
     float: none;
     padding: 0;
@@ -56,4 +76,55 @@ h1 {
 }
 #sprite6 {
     background: url(../assets/sprite.png) -320px 0;
+}
+
+.pictures {
+    img {
+        padding: 0;
+    }
+}
+
+
+/*multikaruzela*/
+.multi-item-carousel{
+  .carousel-inner{
+    .item{
+      transition: 500ms ease-in-out left;
+      div {
+          padding: 0;
+      }
+    }
+    .active{
+      &.left{
+        left:-33%;
+      }
+      &.right{
+        left:33%;
+      }
+    }
+    .next{
+      left: 33%;
+    }
+    .prev{
+      left: -33%;
+    }
+    @media all and (transform-3d), (-webkit-transform-3d) {
+      .item{
+        // use your favourite prefixer here
+        transition: 500ms ease-in-out left;
+        transition: 500ms ease-in-out all;
+        backface-visibility: visible;
+        transform: none!important;
+      }
+    }
+  }
+  .carouse-control{
+    &.left, &.right{
+      background-image: none;
+    }
+  }
+}
+
+.carouselOrNot {
+    padding: 0;
 }
