@@ -1,12 +1,35 @@
+@media screen and (max-width: 480px) {
+    .tlo7 {
+        h2{
+            font-size: medium;
+        }
+    }
+}
+.disapear {
+    display: none;
+}
 
+.naCoTenPadding{
+    padding-left: 0;
+    padding-right: 0;
+}
+.item {
+        padding-bottom: 30px;
+    }
 .carouselDesc{
     display: block;
     float: none; 
     margin: 0 auto;
-       .learnMore {
-        margin:0 auto;
+    .learnMore {
+        margin: 0 auto;
         display: block;
     }
+    h3 {
+        margin-top: 0;
+    }
+}
+#myCarousel {
+    padding-top: 30px;
 }
 
 h6 {
@@ -25,6 +48,7 @@ h4 {
 h1 {
     font-size: x-large;
     font-weight: 700;
+    color: white;
 }
 .tlo {  
     padding-bottom: 30px;
@@ -34,7 +58,10 @@ h1 {
 }
 .tlo4{
     background-color: lightgray;
-    padding: 0 0 30px 0;
+    padding: 0;
+}
+.tlo1 {
+    padding: 0;
 }
 
 .right, .left {
@@ -48,6 +75,10 @@ h1 {
     text-align: center;
 }
 
+.tlo6 {
+    background-color: lightgrey;
+    text-align: center;
+}
 
 .spriteDiv {
     float: none;
@@ -128,7 +159,112 @@ h1 {
 .carouselOrNot {
     padding: 0;
 }
-
+.tenNie {
+    border-right: none!important;
+}
 .footer {
+    padding-top: 30px;
+    .topFooter {
+        h1 {
+            display:inline;
+        }
+    }
     background-color: black;
+    .botFooter{
+        width:100%;
+        display:inline-block;
+        text-align: center;
+        a {
+            display: inline-block;
+            text-decoration: none;
+            color: grey;
+            border-right: solid 1px grey;
+            padding-left: 10px;
+            padding-right: 10px;
+            &:hover {
+                text-decoration: underline;
+                color: white;
+            }
+        }
+        p {
+            margin-top:20px;
+        }
+    }
+}
+
+
+.tlo7 {
+    h2{
+        margin-bottom: 0;
+        box-sizing: border-box;
+        padding: 0 15px;
+        width: 50%;
+        float: left;
+    }
+    img {
+        float: left;
+    }
+    p{
+        text-align: justify;
+        padding: 0 20px;
+        margin-top: 30px;
+    }
+}
+.smallPic {
+    width: 25%;
+}
+
+.spriteSocialDiv {
+    display: inline-flex;
+    float: right;
+    padding: 0 15px 0 0 ;
+    margin: 0 auto;
+    a {
+        display:inline-block;
+        
+        width: 30px;
+        height: 30px;
+    }
+}
+#spriteSocial1 {
+    background: url(../assets/sprite_social.png) 0 0;
+}
+#spriteSocial2 {
+    background: url(../assets/sprite_social.png) -30px 0;
+}
+#spriteSocial3 {
+    background: url(../assets/sprite_social.png) -60px 0;
+}
+#spriteSocial4 {
+    background: url(../assets/sprite_social.png) -90px 0;
+}
+
+.comment {
+    margin: 0 auto;
+    padding: 0;
+    float: none;
+    text-align:left;   
+    p {
+        margin-left:40px;
+
+    }
+}
+
+.customer {
+    display: flex;
+    &:before {
+        margin-right: 10px;
+        display: block;
+        font-family: serif;
+        line-height: 40%;  
+        color: white;
+        font-weight: 900;
+        text-align: center;
+        height: 30px;
+        width: 30px;
+        content: ",,";
+        background-color: red;
+        border-radius: 15px;
+    }
+
 }

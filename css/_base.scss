@@ -1,0 +1,23 @@
+.decoration{
+    &:after {
+    content: "";
+    display: block;
+    height: 9px;
+    width: 67px;
+    background: url('../assets/decoration.png') no-repeat;
+    
+    }
+}
+
+.decorationCenter{
+    &:after {
+    margin:0 auto;
+    }
+}
+
+.wordSpacing {
+    word-spacing: 999999px;
+}
+.clearMan {
+    clear: both;
+}
