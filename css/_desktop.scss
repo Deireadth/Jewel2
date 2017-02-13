@@ -1,3 +1,30 @@
 @media screen and (min-width: 992px) {
-
+    .choDeco {
+        margin-left: 15px;
+    }
+    .tlo1 {
+        display: block;
+        height: 800PX;
+        background: url('../assets/bg.png') no-repeat center;
+    }
+    .disapear {
+        top: 200px;
+        color: white;
+    }
+    .learnMore {
+        padding: 10px 30px;
+    }
+    .lower {
+        top: 130px;
+    }
+    .tlo2 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .spriteDiv {
+    margin: 0!important;
+    }
+    .nav {
+        float: right;
+    }
 }
