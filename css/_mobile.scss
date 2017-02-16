@@ -79,10 +79,7 @@ h1 {
     text-align: center;
 }
 
-.tlo6 {
-    background-color: lightgrey;
-    text-align: center;
-}
+
 
 
 
@@ -161,5 +158,12 @@ h1 {
     width: 25%;
 }
 
+.comment {
+    float: none;
+    min-height: 183px;
+}
+.mobileHidden {
+    display: none;
+}
 }
 
